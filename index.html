@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glint | The Ultimate AI Desktop Assistant</title>
+    <meta name="description" content="Glint is an intelligent desktop assistant that lives on your screen. Highlight text, fix grammar, summarize, and get answers effortlessly.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <nav class="navbar glass-panel">
+        <div class="nav-brand">
+            <i data-lucide="mouse-pointer-2"></i>
+            <span>Glint</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#manual">User Manual</a></li>
+            <li><a href="#api-setup">API Setup</a></li>
+        </ul>
+        <a href="https://drive.google.com/uc?export=download&id=1fKDfDnfetJjX28uLE1k8kF8wkudX3dw0" class="btn btn-primary nav-btn">Download Now</a>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-title">Your AI Co-Pilot,<br><span class="gradient-text">Anywhere on Your Screen.</span></h1>
+        <p class="hero-subtitle">Highlight text in any application, press a shortcut, and let Glint fix grammar, summarize, or rewrite it instantly.</p>
+        <div class="hero-actions">
+            <a href="https://drive.google.com/uc?export=download&id=1fKDfDnfetJjX28uLE1k8kF8wkudX3dw0" class="btn btn-primary btn-large">
+                <i data-lucide="download"></i> Download for Windows
+            </a>
+            <a href="#manual" class="btn btn-secondary btn-large">Read the Manual</a>
+        </div>
+    </header>
+
+    <section id="features" class="container">
+        <h2 class="section-title">Powerful Functionalities</h2>
+        <div class="features-grid">
+            <div class="feature-card glass-panel">
+                <div class="feature-icon"><i data-lucide="pen-tool"></i></div>
+                <h3>Fix Grammar & Tone</h3>
+                <p>Selected text can be instantly corrected for grammar or rewritten to sound more formal with a single click.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon"><i data-lucide="align-left"></i></div>
+                <h3>Summarize Text</h3>
+                <p>Too long to read? Glint can read your highlighted text and give you 3 bullet points summarizing the content instantly.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon"><i data-lucide="replace"></i></div>
+                <h3>Direct Replacement</h3>
+                <p>Once the AI generates a response, click "Replace Selection" to seamlessly inject the text back into the application you were using.</p>
+            </div>
+            <div class="feature-card glass-panel">
+                <div class="feature-icon"><i data-lucide="volume-2"></i></div>
+                <h3>Read Aloud</h3>
+                <p>Have the AI speak its answers or generated text directly to you utilizing built-in text-to-speech technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="manual" class="container">
+        <div class="content-box glass-panel" style="margin-bottom: 2rem;">
+            <h2 class="section-title" style="margin-bottom: 1.5rem;">Basic Shortcuts</h2>
+            <div class="shortcuts-grid">
+                <div class="shortcut-item">
+                    <kbd>Ctrl</kbd> + <kbd>Space</kbd>
+                    <span>Summon Glint (Open Search Bar)</span>
+                </div>
+                <div class="shortcut-item">
+                    <kbd>Ctrl</kbd> + <kbd>Q</kbd>
+                    <span>Capture highlighted context to prompt</span>
+                </div>
+                <div class="shortcut-item">
+                    <kbd>Ctrl</kbd> + <kbd>1</kbd>
+                    <span>Instant Action: Fix Grammar</span>
+                </div>
+                <div class="shortcut-item">
+                    <kbd>Ctrl</kbd> + <kbd>2</kbd>
+                    <span>Instant Action: Make Formal</span>
+                </div>
+                <div class="shortcut-item">
+                    <kbd>Ctrl</kbd> + <kbd>3</kbd>
+                    <span>Instant Action: Summarize</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box glass-panel">
+            <h2 class="section-title">User Manual: How to use Glint</h2>
+            <div class="manual-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Summon the Assistant</h3>
+                        <p>Glint lives in the background. Simply run the app, and whenever you need it, click its icon or use the global shortcut to bring the search bar to the front of your screen.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Ask or Command</h3>
+                        <p>Type anything into the search bar. You can ask general questions or give it commands (e.g., "Write a polite email to my boss"). Press <strong>Enter</strong> to submit.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Using Context</h3>
+                        <p>Highlight text in ANY app (browser, Word, Slack) before triggering Glint. The app will capture your selected text as context. You can then use the quick actions like "Fix Grammar" or "Make Formal".</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Customization</h3>
+                        <p>Click the gear icon in the bottom right corner. You can change the background color, transparency, and even give the AI a custom persona instruction (e.g. "Act as a software engineer").</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="api-setup" class="container">
+        <div class="content-box glass-panel api-section">
+            <div class="api-text">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">OpenRouter API Key Setup</h2>
+                <p>To use cloud AI models freely and extend your 50 request quota, you can plug in your own OpenRouter API key.</p>
+                <ol class="api-steps">
+                    <li>Go to <a href="https://openrouter.ai/" target="_blank">OpenRouter.ai</a> and sign up for a free account.</li>
+                    <li>Navigate to the <strong>Keys</strong> section in your OpenRouter dashboard.</li>
+                    <li>Click <strong>Create Key</strong> and copy the generated key (it starts with <code>sk-or-v1-</code>).</li>
+                    <li>Open Glint and click the <strong>Settings (Gear icon)</strong> in the bottom right corner.</li>
+                    <li>Paste your key under the <strong>OpenRouter Free Key</strong> section and click <strong>Save Settings</strong>.</li>
+                </ol>
+            </div>
+            <div class="api-visual">
+                <div class="mock-ui">
+                    <div class="mock-header">
+                        <i data-lucide="key"></i> OpenRouter Free Key
+                    </div>
+                    <div class="mock-input-group">
+                        <input type="password" value="sk-or-v1-****************" disabled>
+                    </div>
+                    <button class="mock-btn">Save Settings</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <i data-lucide="mouse-pointer-2"></i> Glint
+            </div>
+            <p>&copy; 2026 Glint AI Assistant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
